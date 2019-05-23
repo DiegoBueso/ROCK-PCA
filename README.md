@@ -11,6 +11,9 @@ Folder:
 - demo: contains a easy-to-use toy example to test and try the method.
 
 Please, don't have any doubt to contact us for suggestions and remarks.
+
 Diego Bueso, Phd student, Universitat de València
+
 diego.bueso@uv.es
+
 http://isp.uv.es
