@@ -1,5 +1,5 @@
 clc; close all; clear;
-addpath([cd,'/../ROCK-PCA']);
+addpath([cd,'/../rock-code']);
 %% demo
 n=18;   % Spatial samples
 nt=300; % Time samples
