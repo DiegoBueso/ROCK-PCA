@@ -4,7 +4,7 @@ function [Xpc,pc,expvar]=SSA(f,h,M)
 %% IN PUT
 %f --> Spatio temporal data f(Temporal, x Spatial, y Spatial)
 %h --> number of PC's [2,3,...,h] 
-%M --> length of tiem window (delay)
+%M --> length of time window (delay)
 
 %% OUT PUT
 %Xpc    --> Projected pc
