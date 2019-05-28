@@ -1,4 +1,4 @@
-%% ROCK-PCA (ROtated Kernel Complex PCA)
+%% ROCK-PCA (ROtated Complex Kernel PCA)
 %%% for Spatio-temporal data analysis
 %%% Diego Bueso, IPL, Universitat de Valencia
 %%% diego.bueso@uv.es || (22/05/2019)
@@ -33,7 +33,7 @@ k=norm2mat(x',x');
 disp('Building kernel matrix');
 disp('100 %');
 
-%% Sigma definition; Boundary: median/20 --> maximun·10
+%% Sigma definition; Boundary: median/20 --> maximunÂ·10
 m=median(abs(k(:)));    % mean distance
 M=max(abs(k(:)));       % maximun distance
 sigma=linspace(m/10,M*10,N);
